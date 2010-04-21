@@ -1,0 +1,58 @@
+#ja-newsflash .moduletable {
+	padding: 0;
+	margin-bottom: 0;
+	font-size: 115%; 
+}
+
+.nftitle {
+	color: #FFFFFF;
+	font-size: 275%;
+}
+
+.nftitle a,
+.nftitle a:hover,
+.nftitle a:active,
+.nftitle a:focus  {
+	color: #FFFFFF;
+	text-decoration: none;
+	border-bottom: 1px dotted #FFFFFF;
+	background: none;
+}
+
+.nfcontent {
+	color: #cccccc;
+}
+
+.nfcontent a {
+	color: #cccccc;
+	text-decoration: none;
+	border-bottom: 1px dotted #cccccc;
+}
+
+.nfcontent a:hover,
+.nfcontent a:active, 
+.nfcontent a:focus {
+	color: #ffffff;
+	border-bottom: 1px dotted #ffffff;
+	background: none;
+}
+
+.nfcontent li {
+	padding-left: 0 !important;
+	margin: 15px 0 !important;
+	background: none;
+}
+
+.nfcontent li p {
+	margin: 0;
+}
+
+.nfcontent h1 {
+	color: #FFFFFF;
+	font-size: 150%;
+	margin: 15px 0 0;
+}
+
+.nfcontent p {
+	font-size: 100%;
+}

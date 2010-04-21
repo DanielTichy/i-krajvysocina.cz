@@ -1,0 +1,67 @@
+/*
+
+# ------------------------------------------------------------------------
+# JA Raite template for Joomla 1.5
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+
+*/
+
+/* MAIN NAVIGATION
+----------------------------------------------------------- */
+#ja-splitmenu {
+	margin: 0;
+	padding: 0;
+}
+
+#ja-splitmenu ul {
+	margin: 0;
+	padding: 0;
+}
+
+#ja-splitmenu li {
+	background: none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+#ja-splitmenu a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	padding: 0 15px;
+	line-height: 40px;
+	text-transform: uppercase;
+	background: url(../../images/nav-bg.gif) no-repeat top right #f2f2f2;
+	margin-right: 4px; 
+}
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	color: #cc3300;
+	background: url(../../images/nav-hover.gif) no-repeat top right #dddddd;
+}
+
+#ja-splitmenu li.active {}
+
+#ja-splitmenu li.active a {
+	background: url(../../images/nav-active.gif) no-repeat top right #666666;
+	color: #FFFFFF;
+}
+
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	background: url(../../images/nav-active.gif) no-repeat top right #666666;
+	color: #FFFFFF;
+}

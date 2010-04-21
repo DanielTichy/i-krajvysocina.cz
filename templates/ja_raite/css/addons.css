@@ -1,0 +1,92 @@
+/* Eric Meyer's CSS Tools: Reset CSS (Modified by Hieu Nguyen)
+-------------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+
+ul{
+	list-style: none;
+}
+
+a img { border: 0; }
+
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+	border-color:#CCCCCC;
+}
+
+/* Clearfix
+-------------------------------------------------------------*/
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+* html > body .clearfix {
+	display: block;
+	width: 100%;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+/* Mis.
+-------------------------------------------------------------*/
+.clear, .divider {clear: both !important;}
+
+.no-display		{display: none !important;}
+.nowrap,.nobr	{white-space: nowrap !important;}
+.no-border 		{bottom: 0 !important;}
+.no-padding		{padding: 0 !important}
+.no-margin		{margin: 0 !important;}
+
+.normal-weight {font-weight: normal !important;}
+
+.auto-width {width: auto;}
+
+.first { background: none !important; border: 0 !important; }
+
+/*Alignment---*/
+.v-top 		{vertical-align: top;}
+.v-middle	{vertical-align: middle;}
+.v-bottom 	{vertical-align: bottom;}
+
+.alignleft		{text-align: left;}
+.aligncenter	{text-align: center;}
+.alignright		{text-align: right;}
+
+.left		{float: left;}
+.right	{float: right;}

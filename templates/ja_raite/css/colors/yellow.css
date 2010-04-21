@@ -1,0 +1,270 @@
+ /*
+
+# ------------------------------------------------------------------------
+# JA Raite template for Joomla 1.5
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+
+*/
+
+a { color: #D8A936; }
+a:hover, a:active, a:focus { background: #D8A936; }
+
+a.readon { color: #D8A936; background: url(../../images/yellow/arrow-readon.gif) no-repeat 5px center; }
+a.readon:hover, a.readon:focus, a.readon:active { background-color: #D8A936; }
+
+.inputbox:hover, .inputbox:focus { border: 2px solid #D8A936; }
+
+.button {
+	background: #D8A936;
+	border: 1px solid #D8A936;
+}
+
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus { background: #D8A936; }
+
+#ja-pathway a:hover, #ja-pathway a:active, #ja-pathway a:focus { background: #D8A936; }
+
+ul.menu li a:hover, ul.menu li a:active, ul.menu li a:focus { }
+ul.menu li.active a { background: #D8A936; }
+ul.menu li li a:hover, ul.menu li li a:active, ul.menu li li a:focus { color: #D8A936 !important; }
+
+h1.logo a, h1.logo a:hover, h1.logo a:active, h1.logo a:focus { background: url(../../images/yellow/logo.jpg) no-repeat; }
+
+#ja-mainnav { border-bottom: 8px solid #D8A936; }
+
+#ja-subnav ul li a:hover,
+#ja-subnav ul li a:active,
+#ja-subnav ul li a:focus {
+	background: #666666;
+	color: #ffffff;
+}
+
+#ja-subnav ul li.active a {
+	background: #D8A936;
+	color: #ffffff;	
+}
+
+#ja-newsflash { background: #D8A936; }
+
+#ja-botsl { background: #D8A936; }
+#ja-botsl .main { color: #F8EFD7; }
+#ja-botsl div.moduletable h3 { color: #F8EFD7; }
+#ja-botsl a:hover, #ja-botsl a:active, #ja-botsl a:focus { background: #A58129; }
+#ja-botsl ul.latestnews li, #ja-botsl ul.mostread li {border-top: 1px dotted #E3C16B;}
+#ja-botsl ul.latestnews li a, #ja-botsl ul.mostread li a {color: #F8EFD7;}
+#ja-botsl ul.latestnews li a:hover, #ja-botsl ul.mostread li a:hover,
+#ja-botsl ul.latestnews li a:active, #ja-botsl ul.mostread li a:active,
+#ja-botsl ul.latestnews li a:focus, #ja-botsl ul.mostread li a:focus {
+	color: #ffffff;
+	background: #A58129;
+}
+
+#ja-footer { background: #D8A936; border-top: 1px solid #E3C16B; }
+#ja-footer small { color: #F8EFD7; }
+
+#ja-footer a:hover, #ja-footer a:active, #ja-footer a:focus { background: #A58129; }
+#ja-footer li { background: url(../../images/yellow/vline.gif) no-repeat right; }
+
+.nfcontent{ color: #F8EFD7;}
+.nfcontent a {
+	color: #F8EFD7;
+	border-bottom: 1px dotted #F8EFD7;
+}
+
+/* Typography ---*/
+pre, .code {
+	background: #FDFAF4;
+	border-left: 5px solid #D8A936;
+}
+
+.highlight {
+	background: #FDF9F2;
+	color: #D8A936;
+}
+
+p.stickynote {
+	background-color: #FDFAF4;
+	border: 1px solid #F1DFB1;
+}
+
+p.download {
+	background-color: #FDFAF4;
+	border: 1px solid #F1DFB1;
+}
+
+blockquote span.open {
+	background: url(../../images/yellow/so-q.gif) no-repeat left top;
+}
+
+blockquote span.close {
+	background: url(../../images/yellow/sc-q.gif) no-repeat bottom right;
+}
+
+.dropcap {
+	color: #D8A936;
+}
+
+ul.checklist li {
+	background: url(../../images/yellow/icon-checklist.gif) no-repeat 0 4px !important;
+}
+
+ul.arrow li {
+	background: url(../../images/yellow/icon-arrow.gif) no-repeat 3px 5px;
+}
+
+ul.star li {
+	background: url(../../images/yellow/icon-star.gif) no-repeat 3px 3px;
+}
+
+.bignumber {
+	background: url(../../images/yellow/ol-bg.gif) no-repeat top left;
+}
+
+div.bubble1 div {
+	background: url(../../images/yellow/bub1-br.gif) no-repeat bottom right;
+}
+
+div.bubble1 div div {
+	background: url(../../images/yellow/bub1-bl.gif) no-repeat bottom left;
+}
+
+div.bubble1 div div div {
+	background: url(../../images/yellow/bub1-tr.gif) no-repeat top right;
+}
+
+div.bubble1 div div div div {
+	background: url(../../images/yellow/bub1-tl.gif) no-repeat top left;
+}
+
+div.bubble2 div {
+	background: url(../../images/yellow/bub2-br.gif) no-repeat bottom right;
+}
+
+div.bubble2 div div {
+	background: url(../../images/yellow/bub2-bl.gif) no-repeat bottom left;
+}
+
+div.bubble2 div div div {
+	background: url(../../images/yellow/bub2-tr.gif) no-repeat top right;
+}
+
+div.bubble2 div div div div {
+	background: url(../../images/yellow/bub2-tl.gif) no-repeat top left;
+}
+
+div.bubble3 div {
+	background: url(../../images/yellow/bub3-br.gif) no-repeat bottom right;
+}
+
+div.bubble3 div div {
+	background: url(../../images/yellow/bub3-bl.gif) no-repeat bottom left;
+}
+
+div.bubble3 div div div {
+	background: url(../../images/yellow/bub3-tr.gif) no-repeat top right;
+}
+
+div.bubble3 div div div div {
+	background: url(../../images/yellow/bub3-tl.gif) no-repeat top left;
+}
+
+div.bubble4 div {
+	background: url(../../images/yellow/bub4-br.gif) no-repeat bottom right;
+}
+
+div.bubble4 div div {
+	background: url(../../images/yellow/bub4-bl.gif) no-repeat bottom left;
+}
+
+div.bubble4 div div div {
+	background: url(../../images/yellow/bub4-tr.gif) no-repeat top right;
+}
+
+div.bubble4 div div div div {
+	background: url(../../images/yellow/bub4-tl.gif) no-repeat top left;
+}
+
+.legend-title {
+	background: #FFFFFF;
+	color: #D8A936;
+}
+
+.legend {
+	border: 1px solid #F1DFB1;
+}
+
+/* Navigation ---*/
+#ja-splitmenu a {
+	background: url(../../images/yellow/nav-bg.gif) no-repeat top right #FDF9F2;
+}
+
+#ja-splitmenu a:hover,
+#ja-splitmenu a:active,
+#ja-splitmenu a:focus {
+	color: #D8A936;
+	background: url(../../images/yellow/nav-hover.gif) no-repeat top right #F8EFD7;
+}
+
+#ja-splitmenu li.active a {
+	background: url(../../images/yellow/nav-active.gif) no-repeat top right #D8A936;
+}
+
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	background: url(../../images/yellow/nav-active.gif) no-repeat top right #D8A936;
+}
+
+#ja-cssmenu li a {
+	background: url(../../images/yellow/nav-bg.gif) no-repeat top right #FDF9F2;
+}
+
+#ja-cssmenu li:hover a,
+#ja-cssmenu li.sfhover a,
+#ja-cssmenu li.havechildsfhover a,
+#ja-cssmenu li.havechild-activesfhover a {
+	color: #D8A936;
+	background: url(../../images/yellow/nav-hover.gif) no-repeat top right #F8EFD7;
+}
+
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	background: url(../../images/yellow/nav-active.gif) no-repeat top right #D8A936;
+	color: #FFFFFF;
+}
+
+#ja-cssmenu li ul {
+	border: 3px solid #F8EFD7;
+	background: url(../../images/yellow/grad-1.gif) repeat-x bottom #F8EFD7;
+}
+
+#ja-cssmenu li ul li { border-bottom: 1px solid #F1DFB1; }
+
+#ja-cssmenu li li a.sfhover,
+#ja-cssmenu li ul a:hover,
+#ja-cssmenu li ul a:active,
+#ja-cssmenu li ul a:focus,
+#ja-cssmenu ul li:hover,
+#ja-cssmenu ul li.sfhover,
+#ja-cssmenu ul li.havesubchildsfhover,
+#ja-cssmenu ul li.havesubchild-activesfhover,
+#ja-cssmenu ul ul li:hover,
+#ja-cssmenu ul ul li.sfhover,
+#ja-cssmenu ul ul li.havesubchildsfhover,
+#ja-cssmenu ul ul li.havesubchild-activesfhover {
+	background: #D8A936;
+}
+
+#ja-cssmenu ul li a.active { color: #D8A936 !important; }
+
+#ja-cssmenu li li:hover > a { background: #D8A936; }

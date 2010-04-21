@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5">
+	<name>JA Newsflash</name>
+	<author>JoomlArt.com</author>
+	<creationDate>May 2007</creationDate>
+	<copyright>J.O.O. Solutions. Co., Ltd.</copyright>
+	<license>JA Commercial</license>
+	<authorEmail>webmaster@joomlart.com</authorEmail>
+	<authorUrl>www.joomlart.com</authorUrl>
+	<version>1.0.2</version>
+	<description>JA NewsFlash Module</description>
+		<languages>
+				<language tag="en-GB">en-GB.mod_janewsflash.ini</language>
+		</languages>
+	<files>
+		<filename module="mod_janewsflash">mod_janewsflash.php</filename>
+		<filename module="mod_janewsflash">helper.php</filename>
+		<folder module="mod_janewsflash">ja_newsflash</folder>
+		<folder module="mod_janewsflash">elements</folder>
+		<folder module="mod_janewsflash">tmpl</folder>
+	</files>
+	<params addpath="/modules/mod_janewsflash/elements">
+		<param name="moduleclass_sfx" type="text" default="" label="MODULE CLASS SUFFIX" description="MODULE CLASS SUFFIX DESC" />
+		<param name="catid" type="mos_category" default="3" label="CATEGORY" description="CATEGORY DESC" />
+		<param name="sort_order_field" type="list" default="created" label="SORT ORDER BY" description="SORT ORDER BY DESC">
+			<option value="created">DATE</option>
+			<option value="ordering">ORDER</option>
+			<option value="hits">HITS</option>
+			<option value="rand">Random</option>
+		</param>
+		<param name="sort_order" type="list" default="DESC" label="ASC OR DESC" description="ASC OR DESC DESC">
+               <option value="ASC">ASC</option>
+               <option value="DESC">DESC</option>
+         </param>
+		 	
+		<param  type="text" default="10" cols="30" rows="2" name="max_items" label="MAX ARTICLES DISPLAY" description="MAX ARTICLES DISPLAY DESC"/>
+		
+		<param name="delaytime" type="text" default="10" label="ROLLING DELAY TIME" description="ROLLING DELAY TIME DESC" />
+		<param name="animation_speed" type="text" default="1000" label="ANIMATION DURATION" description="ANIMATION DURATION DESC"/>
+		<param name="animationtime" type="text" default="1000" label="ANIMATION TIME" description="ANIMATION TIME DESC" />
+		<param name="link_titles" type="list" default="" label="LINKED TITLES" description="LINKED TITLES DESC">
+			<option value="">USE GLOBAL</option>
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="link_images" type="list" default="" label="LINKED IMAGE" description="LINKED IMAGE DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="animation" type="list" default="scroll_left" label="STYLE CLASS" description="STYLE CLASS DESC">
+			<option value="effect_replace">Replace</option>
+			<option value="scroll_left">Scroll Left</option>
+			<option value="scroll_right">Scroll  Right</option>
+			<option value="scroll_up">Scroll  Up</option>
+			<option value="scroll_down">Scroll  Down</option>
+			<option value="effect_fade">Fade effect</option>
+		</param>
+		
+			<param name="animation_transition" type="list" default="Fx.Transitions.linear" label="ANIMATION TRANSITION" description="ANIMATION TRANSITION DESC">
+		   <option value="Fx.Transitions.linear">linear</option>
+			<option value="Fx.Transitions.Quad.easeIn">Quad.easeIn</option>
+			<option value="Fx.Transitions.Quad.easeOut">Quad.easeOut</option>
+			<option value="Fx.Transitions.Quad.easeInOut">Quad.easeInOut</option>
+			<option value="Fx.Transitions.Cubic.easeIn">Cubic.easeIn</option>
+			<option value="Fx.Transitions.Cubic.easeOut">Cubic.easeOut</option>
+			<option value="Fx.Transitions.Cubic.easeInOut">Cubic.easeInOut</option>
+			<option value="Fx.Transitions.Quart.easeIn">Quart.easeIn</option>
+			<option value="Fx.Transitions.Quart.easeOut">Quart.easeOut</option>
+			<option value="Fx.Transitions.Quart.easeInOut">Quart.easeInOut</option>
+			<option value="Fx.Transitions.Quint.easeIn">Quint.easeIn</option>
+			<option value="Fx.Transitions.Quint.easeOut">Quint.easeOut</option>
+			<option value="Fx.Transitions.Quint.easeInOut">Quint.easeInOut</option>
+			<option value="Fx.Transitions.Pow.easeIn">Pow.easeIn</option>
+			<option value="Fx.Transitions.Pow.easeOut">Pow.easeOut</option>
+			<option value="Fx.Transitions.Pow.easeInOut">Pow.easeInOut</option>
+			<option value="Fx.Transitions.Expo.easeIn">Expo.easeIn</option>
+			<option value="Fx.Transitions.Expo.easeOut">Expo.easeOut</option>
+			<option value="Fx.Transitions.Expo.easeInOut">Expo.easeInOut</option>
+			<option value="Fx.Transitions.Circ.easeIn">Circ.easeIn</option>
+			<option value="Fx.Transitions.Circ.easeOut">Circ.easeOut</option>
+			<option value="Fx.Transitions.Circ.easeInOut">Circ.easeInOut</option>
+			<option value="Fx.Transitions.Sine.easeIn">Sine.easeIn</option>
+			<option value="Fx.Transitions.Sine.easeOut">Sine.easeOut</option>
+			<option value="Fx.Transitions.Sine.easeInOut">Sine.easeInOut</option>
+			<option value="Fx.Transitions.Back.easeIn">Back.easeIn</option>
+			<option value="Fx.Transitions.Back.easeOut">Back.easeOut</option>
+			<option value="Fx.Transitions.Back.easeInOut">Back.easeInOut</option>
+			<option value="Fx.Transitions.Bounce.easeIn">Bounce.easeIn</option>
+			<option value="Fx.Transitions.Bounce.easeOut">Bounce.easeOut</option>
+			<option value="Fx.Transitions.Bounce.easeInOut">Bounce.easeInOut</option>
+			<option value="Fx.Transitions.Elastic.easeIn">Elastic.easeIn</option>
+			<option value="Fx.Transitions.Elastic.easeOut">Elastic.easeOut</option>
+			<option value="Fx.Transitions.Elastic.easeInOut">Elastic.easeInOut</option>				  
+        </param> 
+		
+		<param name="xheight" type="text" default="300" label="HEIGHT OF DIV" description="HEIGHT OF DIV DESC" />
+		<param name="templates" type="textarea" cols="50" rows="30" default="&lt;div style=&quot;overflow:hidden; height:323px;&quot; &gt;&lt;div class=&quot;nfimages&quot;&gt;##IMAGE##&lt;/div&gt;&lt;div class=&quot;nftitle&quot;&gt;##TITLE##&lt;/div&gt;&lt;div class=&quot;nfcontent&quot;&gt;##CONTENT##&lt;/div&gt;&lt;/div&gt;" label="TEMPLATES" description="TEMPLATES DESC" />
+	</params>
+	
+	<params group="advanced">
+		<param name="enable_cache" type="list" default="1" label="CACHING" description="CACHING DESC">
+			<option value="1">Use Cache</option>
+			<option value="0">Don't cache</option>
+		</param>
+		<param name="cache_time" type="text" default="30" label="CACHE TIME" description="CACHE TIME DESC" />
+	</params>
+	
+</install>
