@@ -1,4 +1,4 @@
-<?php header("Content-type: text/css"); ?>
+﻿<?php header("Content-type: text/css"); ?>
 /*
 # ------------------------------------------------------------------------
 # JA Raite template for Joomla 1.5
@@ -31,7 +31,11 @@ $iev = ieversion();
 /*IE 6*/
 if ($iev == 6) {
 ?>
-
+ HTML #ja-col {
+	WIDTH: 25.0%;
+	overflow: hidden;
+	float: left;
+}
 <?php
 }
 ?>
