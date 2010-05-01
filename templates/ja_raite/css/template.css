@@ -422,7 +422,7 @@ div.syndicate div { text-align: center; }
 .main { margin: 0 auto; width: 960px; }
 
 #ja-content { float: left; width: 75%;}
-#ja-current-content { border-top: 8px solid #666666; padding-top: 8px; }
+#ja-current-content { border-top: 8px solid #6AC817; padding-top: 8px; }
 
 /*column*/
 #ja-col { float: right; width: 25%; }
@@ -449,10 +449,10 @@ div.moduletable_menu h3{
 	margin: 0 0 10px;
 	padding: 8px 0;
 	font-size: 125%;
-	border-top: 8px solid #4BB84D;
-	border-bottom: 1px solid #4BB84D;
+	border-top: 8px solid #6AC817;
+	border-bottom: 1px solid #6AC817;
 	text-transform: uppercase;
-	color: #333366;
+	color: #180072;
 }
 
 
@@ -481,12 +481,12 @@ ul.ja-bullettin li a { display: inline; padding: 0; }
 /* HEADER
 --------------------------------------------------------- */
 #ja-header { 
-	height: 90px;
+	height: 116px;
 	z-index: 99;
 	position: relative;
 }
 
-#ja-header .main { height: 100px; position: relative; }
+#ja-header .main { height: 126x; position: relative; }
 
 h1.logo, .logo-text h1 {
 	font-size: 250%;
