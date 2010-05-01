@@ -63,11 +63,16 @@ background: url(../../images/blue/logo.jpg) no-repeat;
 #ja-botsl a:hover, #ja-botsl a:active, #ja-botsl a:focus { background: #054151; }
 #ja-botsl ul.latestnews li, #ja-botsl ul.mostread li {border-top: 1px dotted #63C4DC;}
 #ja-botsl ul.latestnews li a, #ja-botsl ul.mostread li a {color: #f5fffa;}
-#ja-botsl ul.latestnews li a:hover, #ja-botsl ul.mostread li a:hover,
-#ja-botsl ul.latestnews li a:active, #ja-botsl ul.mostread li a:active,
-#ja-botsl ul.latestnews li a:focus, #ja-botsl ul.mostread li a:focus {
+
+#ja-botsl ul.latestnews li a:active, #ja-botsl ul.mostread li a:active{
 	color: #ffffff;
 	background: #054151;
+}
+
+#ja-botsl ul.latestnews li a:hover, #ja-botsl ul.mostread li a:hover,
+#ja-botsl ul.latestnews li a:focus, #ja-botsl ul.mostread li a:focus {
+	color: #333366;
+	background: #ffffff;
 }
 
 #ja-footer { background: #4BB84D; border-top: 1px solid #63C4DC; }

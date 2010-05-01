@@ -1,16 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
 <project version="5.5" encoding="UTF-8">
+	<project_entity ID="SourceControl">
+		<encodingStyle value="Subversion"/>
+	</project_entity>
 	<project_entity ID="debugger">
 		<connectionInfo use_defaults="true" tempFilesLocation="D:\Data\UserData\DWP" debug_mode="local" serverHost="http://localhost" port="10000"/>
-		<breakpoints/>
+		<breakpoints>
+			<breakpoint fileName="D:\Projects\DwpFla\i-krajvysocina\wwwroot\configuration.php" lineNumber="2" enable="true" condition=""/>
+		</breakpoints>
 		<watches/>
 	</project_entity>
 	<project_entity ID="project_roots">
 		<vfile name="D:\Projects\DwpFla\i-krajvysocina\wwwroot"/>
 	</project_entity>
+	<project_entity ID="bookmarks"/>
 	<project_entity ID="javaBridge" JRE_Name="1.6.0"/>
+	<project_entity ID="Subversion">
+		<svnCmdArguments>
+			<SubversionCommand commandType="update"/>
+			<SubversionCommand commandType="commit"/>
+			<SubversionCommand commandType="add"/>
+			<SubversionCommand commandType="status"/>
+			<SubversionCommand commandType="diff"/>
+			<SubversionCommand commandType="delete"/>
+			<SubversionCommand commandType="revert"/>
+			<SubversionCommand commandType="resolve"/>
+		</svnCmdArguments>
+	</project_entity>
 	<project_entity ID="editor_component" selectedEditor="0">
-		<openEditors/>
+		<openEditors>
+			<editor fileName="D:\Projects\DwpFla\i-krajvysocina\wwwroot\configuration.php" caretPosition="2020" clone="false" encoding="UTF-8"/>
+			<editor fileName="D:\Projects\DwpFla\i-krajvysocina\wwwroot\administrator\components\com_admin\tmpl\sysinfo_config.php" caretPosition="1968" clone="false" encoding="UTF-8"/>
+		</openEditors>
+	</project_entity>
+	<project_entity ID="CVS">
+		<lastArguments>
+			<CVSCommand commandType="update"/>
+			<CVSCommand commandType="commit"/>
+			<CVSCommand commandType="add"/>
+			<CVSCommand commandType="status"/>
+			<CVSCommand commandType="diff"/>
+		</lastArguments>
 	</project_entity>
 </project>
