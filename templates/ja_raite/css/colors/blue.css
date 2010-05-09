@@ -5,12 +5,12 @@
 # ------------------------------------------------------------------------
 # Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
 # @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
-# bound by Proprietary License of JoomlArt. For details on licensing, 
+# bound by Proprietary License of JoomlArt. For details on licensing,
 # Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
 # Author: JoomlArt.com
 # Websites:  http://www.joomlart.com -  http://www.joomlancers.com
-# Redistribution, Modification or Re-licensing of this file in part of full, 
-# is bound by the License applied. 
+# Redistribution, Modification or Re-licensing of this file in part of full,
+# is bound by the License applied.
 # ------------------------------------------------------------------------
 
 */
@@ -36,8 +36,8 @@ ul.menu li a:hover, ul.menu li a:active, ul.menu li a:focus { }
 ul.menu li.active a { background: #0D9FC4; }
 ul.menu li li a:hover, ul.menu li li a:active, ul.menu li li a:focus { color: #0D9FC4 !important; }
 
-h1.logo a, h1.logo a:hover, h1.logo a:active, h1.logo a:focus  { 
-background: url(../../images/blue/logo.jpg) no-repeat; 
+h1.logo a, h1.logo a:hover, h1.logo a:active, h1.logo a:focus  {
+background: url(../../images/blue/logo.jpg) no-repeat;
 	height: 90px;
 }
 
@@ -50,11 +50,11 @@ background: url(../../images/blue/logo.jpg) no-repeat;
 
 #ja-subnav ul li.active a {
 	background: #0D9FC4;
-	color: #ffffff;	
+	color: #ffffff;
 }
 
-#ja-newsflash { 
-	background: #336; 
+#ja-newsflash {
+	background: #180072;
 }
 
 #ja-botsl { background: #180072; }
