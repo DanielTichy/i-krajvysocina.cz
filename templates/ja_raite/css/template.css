@@ -693,7 +693,7 @@ ul.menu li li li a {
 
 /* Newflash ---*/
 #ja-newsflash {
-	background: #666666;
+	background: #666666 url(../images/prechod.jpg) 0 0 no-repeat;
 	position: relative;
 	z-index: 998;
 }

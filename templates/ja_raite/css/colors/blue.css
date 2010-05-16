@@ -54,7 +54,7 @@ background: url(../../images/blue/logo.jpg) no-repeat;
 }
 
 #ja-newsflash {
-	background: #180072;
+	background: #180072 url(../../images/prechod.jpg) 0 0 repeat-y;
 }
 
 #ja-botsl { background: #180072; }
@@ -278,6 +278,6 @@ div.bubble4 div div div div {
 	background: #6AC817;
 }
 
-#ja-cssmenu ul li a.active { color: #0d9fc4 !important; }
+#ja-cssmenu ul li a.active { color: #180072 !important; font-weight: normal  !important; }
 
 #ja-cssmenu li li:hover > a { background: #0d9fc4; }
