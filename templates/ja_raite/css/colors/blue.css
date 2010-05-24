@@ -54,7 +54,12 @@ background: url(../../images/blue/logo.jpg) no-repeat;
 }
 
 #ja-newsflash {
-	background: #180072 url(../../images/prechod.jpg) 0 0 repeat-y;
+	background: #180072 url(../../images/blue/green.gif) 0 0 no-repeat;
+}
+
+#ja-newsflash .main {
+	background: #180072;
+	padding-left: 20px;
 }
 
 #ja-botsl { background: #180072; }
