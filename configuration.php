@@ -1,6 +1,32 @@
 <?php
 
-class JConfig {
+
+/**
+ * Customize standart configuration by runtime server
+ */
+class JConfig extends _JConfig{
+  var $serverName = 'Master';
+
+  function DevelCfg(){
+	  $this->host     = 'localhost';
+  	$this->user     = 'root';
+  	$this->password = 'root';
+  	$this->db       = 'ic_ikrajvysocina';
+  	$this->dbprefix = 'jos_';
+  	$this->log_path = 'D:\\Projects\\ihornik.cz\\wwwroot\\logs';
+    $this->tmp_path = 'D:\\Projects\\ihornik.cz\\wwwroot\\tmp';
+  }
+
+  function __construct(){
+    $this->serverName = $_SERVER["HTTP_HOST"];
+    if($this->serverName == 'dwpfla'){
+      $this->DevelCfg();
+    }
+  }
+}
+
+class _JConfig {
+
 	var $offline = '0';
 	var $editor = 'jce';
 	var $list_limit = '100';
