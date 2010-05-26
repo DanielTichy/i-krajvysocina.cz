@@ -157,7 +157,7 @@ input, select, textarea, .inputbox, .button {
 /* JOOMLA STYLE
 --------------------------------------------------------- */
 .article_separator, .leading_separator {
-	background: url(../images/dot.gif) repeat-x center;
+	/* TODO::DWP background: url(../images/dot.gif) repeat-x center;*/
 	clear: both;
 	display: block;
 	line-height: 40px;
@@ -426,7 +426,7 @@ div.syndicate div { text-align: center; }
 
 /*column*/
 #ja-col { float: right; width: 25%; }
-* html #ja-col { width: 24.5%; /*IE 6*/ }
+* html #ja-col { width: 24.0%; /*IE 6*/ }
 #ja-col .ja-innerpad { padding-left: 30px; }
 
 /*common style for column*/

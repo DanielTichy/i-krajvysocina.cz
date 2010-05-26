@@ -36,6 +36,11 @@ if ($iev == 6) {
 	overflow: hidden;
 	float: left;
 }
+
+#ja-container #ja-content { 
+	width: 720px !important; 
+	overflow: hidden;
+}
 <?php
 }
 ?>
