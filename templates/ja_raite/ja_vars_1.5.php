@@ -25,7 +25,7 @@ if (defined('_DEMO_MODE_')) $tmpTools = new JA_Tools($this, array(JA_TOOL_MENU, 
 else $tmpTools = new JA_Tools($this);
 
 $tmpTools->setScreenSizes (array('wide'));
-$tmpTools->setColorThemes (array('default','blue','red','red'));
+$tmpTools->setColorThemes (array('default','blue','red','red','dwp'));
 
 # Auto Collapse Divs Functions ##########
 $ja_left = $this->countModules('left');

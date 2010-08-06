@@ -426,7 +426,7 @@ div.syndicate div { text-align: center; }
 
 /*column*/
 #ja-col { float: right; width: 25%; }
-* html #ja-col { width: 24.0%; /*IE 6*/ }
+
 #ja-col .ja-innerpad { padding-left: 30px; }
 
 /*common style for column*/
