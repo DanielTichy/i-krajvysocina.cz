@@ -301,11 +301,15 @@ h2.contentheading, .contentheading {
 	padding: 0;
 }
 
-a.contentpagetitle { }
+a.contentpagetitle {
+	color: #666666;
+}
 
 a.contentpagetitle:hover,
 a.contentpagetitle:active,
-a.contentpagetitle:focus {}
+a.contentpagetitle:focus {
+	background-color: transparent !important;
+}
 
 .contentdescription { padding-bottom: 30px; }
 
